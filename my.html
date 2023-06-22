@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8091ce4217.js" crossorigin="anonymous"></script>
+  <title>SOCIALBOOK</title>
+</head>
+<body>
+
+  <!-- nav -->
+  <nav>
+    <div class="nav-left">
+      <a href="my.html">
+    <img src="Anonymous\Project\img\socialbook_img\images\logo2.png" class="logo">
+  </a>
+    <ul>
+      <li><img src="Anonymous\Project\img\socialbook_img\images\notification.png"></li>
+      <li><img src="Anonymous\Project\img\socialbook_img\images\inbox.png"></li>
+      <li><img src="Anonymous\Project\img\socialbook_img\images\video.png"></li>
+    </ul>
+    </div>
+
+    <div class="nav-right">
+     <div class="searchbox">
+      <img src="Anonymous\Project\img\socialbook_img\images\search.png">
+      <input type="text" placeholder="search">
+     </div>
+     <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+      <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png">
+     </div>
+    </div>
+    <!-- settings-menu -->
+    <div class="settings-menu">
+      <div id="dark-btn" class="dark-btn-on" >
+        <span></span>
+      </div>
+      <div class="settings-menu-inner">
+        <div class="user-profile">
+          <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png">
+          <div>
+            <p>John Nicholsan</p>
+            <a href="profile.html">See your Profile</a>
+          </div>
+        </div>
+        <hr>
+        <div class="user-profile">
+          <img src="Anonymous\Project\img\socialbook_img\images\feedback.png">
+          <div>
+            <p>Give feedback</p>
+            <a href="#">Be a companion to improve the new design</a>
+          </div>
+        </div>
+        <hr>
+        <div class="settings-links">
+          <img src="Anonymous\Project\img\socialbook_img\images\setting.png" class="setting-icon">
+          <a href="#">Settings & Privacy <img src="Anonymous\Project\img\socialbook_img\images\arrow.png" width="10px"></a>
+        </div>
+        <div class="settings-links">
+          <img src="Anonymous\Project\img\socialbook_img\images\help.png" class="setting-icon">
+          <a href="#">Help & Support <img src="Anonymous\Project\img\socialbook_img\images\arrow.png" width="10px"></a>
+        </div>
+        <div class="settings-links">
+          <img src="Anonymous\Project\img\socialbook_img\images\display.png" class="setting-icon">
+          <a href="#">Display & Accessbility <img src="Anonymous\Project\img\socialbook_img\images\arrow.png" width="10px"></a>
+        </div>
+        <div class="settings-links">
+          <img src="Anonymous\Project\img\socialbook_img\images\logout.png" class="setting-icon">
+          <a href="#">Logout <img src="Anonymous\Project\img\socialbook_img\images\arrow.png" width="10px"></a>
+        </div>
+      </div>  
+    </div>
+  </nav>
+           <!-- main -->
+  <div class="container">
+    <div class="left-sidebar">
+      <div class="imp-links">
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\news.png">Latest News</a>
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\friends.png">Friends</a>
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\group.png">Group</a>
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\marketplace.png">Marketplace</a>
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\watch.png">Watch</a>
+        <a href=" ">See More</a>
+      </div>
+      <div class="shortcut-links">
+        <p>Your Shortcuts</p>
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\shortcut-1.png" alt="#">Web Developers</a>
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\shortcut-2.png" alt="#">Web Deseign Course</a>
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\shortcut-3.png" alt="#">Full Stack Dev</a>
+        <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\shortcut-4.png" alt="#">SEO</a>
+      </div>
+    </div>
+
+      <!-- main content -->
+    <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="Anonymous\Project\img\socialbook_img\images\upload.png">
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="Anonymous\Project\img\socialbook_img\images\member-1.png">
+            <p>Stephney</p>
+          </div>
+          <div class="story story3">
+            <img src="Anonymous\Project\img\socialbook_img\images\member-2.png">
+            <p>Allison</p>
+          </div>
+          <div class="story story4">
+            <img src="Anonymous\Project\img\socialbook_img\images\member-3.png">
+            <p>Lewa</p>
+          </div>
+          <div class="story story5">
+            <img src="Anonymous\Project\img\socialbook_img\images\member-4.png">
+            <p>Musiala</p>
+          </div>
+        </div>
+
+          <!-- post-area -->
+         <div class="write-post-container">
+          <div class="user-profile">
+            <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png">
+            <div>
+              <p>John Nicholsan</p>
+              <small>Public<i class="fa-sharp fa-solid fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea rows="3" placeholder="What's on your mind😇, John?"></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\live-video.png">Stream</a>
+              <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\photo.png">Photo/Video</a>
+              <a href="#"><img src="Anonymous\Project\img\socialbook_img\images\feeling.png">Feeling/Activity</a>
+            </div>
+          </div>
+
+         </div> 
+           <!-- next post-area -->
+
+        <div class="write-post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png">
+              <div>
+                <p>John Nicholsan</p>
+                <span>June 18 2023, 18:40</span>
+              </div>
+            </div>
+            <a href=""><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          
+          <p class="post-text">Lorem ipsum <span>dolor sit amet consectetur</span> adipisicing elit. Ullam, doloribus.<a href="#">#ViscaBarca</a> <a href="#">#Bluagrana</a></p>
+          <img src="Anonymous\Project\img\socialbook_img\images\feed-image-1.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icon">
+             <div><img src="Anonymous\Project\img\socialbook_img\images\like-blue.png">120</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\comments.png">50</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\share.png">80</div>
+            </div>
+            <div class="post-profile-icon">
+             <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        
+        <!-- next2 post-area -->
+        <div class="write-post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png">
+              <div>
+                <p>Henderson</p>
+                <span>August 15 2023, 8:40</span>
+              </div>
+            </div>
+            <a href=""><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          
+          <p class="post-text">Feeling pleasent, <span>happy holiday of life</span> to the outmost soul. Travelling to desire.<a href="#">#travelsoul</a> <a href="#">#roamfree</a></p>
+          <img src="Anonymous\Project\img\socialbook_img\images\feed-image-2.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icon">
+             <div><img src="Anonymous\Project\img\socialbook_img\images\like.png">190</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\comments.png">70</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\share.png">810</div>
+            </div>
+            <div class="post-profile-icon">
+             <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- next3 post-area -->
+        <div class="write-post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png">
+              <div>
+                <p>Henderson</p>
+                <span>August 15 2023, 8:40</span>
+              </div>
+            </div>
+            <a href=""><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          
+          <p class="post-text">Feeling pleasent, <span>happy holiday of life</span> to the outmost soul. Travelling to desire.<a href="#">#travelsoul</a> <a href="#">#roamfree</a></p>
+          <img src="Anonymous\Project\img\socialbook_img\images\feed-image-3.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icon">
+             <div><img src="Anonymous\Project\img\socialbook_img\images\like-blue.png">300</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\comments.png">134</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\share.png">500</div>
+            </div>
+            <div class="post-profile-icon">
+             <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- next4 post-area -->
+        <div class="write-post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png">
+              <div>
+                <p>Roma</p>
+                <span>September 15 2023, 12:40 PM</span>
+              </div>
+            </div>
+            <a href=""><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          
+          <p class="post-text">Feeling pleasent, <span>happy holiday of life</span> to the outmost soul. Travelling to desire.<a href="#">#travelsoul</a> <a href="#">#roamfree</a></p>
+          <img src="Anonymous\Project\img\socialbook_img\images\feed-image-4.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icon">
+             <div><img src="Anonymous\Project\img\socialbook_img\images\like-blue.png">600</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\comments.png">174</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\share.png">800</div>
+            </div>
+            <div class="post-profile-icon">
+             <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- next5 post-area -->
+        <div class="write-post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png">
+              <div>
+                <p>Roma</p>
+                <span>September 15 2023, 12:40 PM</span>
+              </div>
+            </div>
+            <a href=""><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          
+          <p class="post-text">Feeling pleasent, <span>happy holiday of life</span> to the outmost soul. Travelling to desire.<a href="#">#travelsoul</a> <a href="#">#roamfree</a></p>
+          <img src="Anonymous\Project\img\socialbook_img\images\feed-image-5.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icon">
+             <div><img src="Anonymous\Project\img\socialbook_img\images\like.png">670</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\comments.png">236</div>
+             <div><img src="Anonymous\Project\img\socialbook_img\images\share.png">768</div>
+            </div>
+            <div class="post-profile-icon">
+             <img src="Anonymous\Project\img\socialbook_img\images\profile-pic.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <!-- post-area -->
+        <button type="button" class="load-more-btn">Load More</button>
+    </div>
+
+    <!-- right-bar -->
+    <div class="right-sidebar">
+      <div class="sidebar-title">
+        <h4>Events</h4>
+        <a href="#">See All</a>
+      </div>
+      <div class="event">
+        <div class="left-event">
+          <h3>18</h3>
+          <span>March</span>
+        </div>
+        <div class="right-event">
+          <h4>Social Media</h4>
+          <p><i class="fa-sharp fa-solid fa-location-dot"></i>Hi-Tec City</p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+      <div class="event">
+        <div class="left-event">
+          <h3>22</h3>
+          <span>April</span>
+        </div>
+        <div class="right-event">
+          <h4>Development</h4>
+          <p><i class="fa-sharp fa-solid fa-location-dot"></i>Hi-Tec City</p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+      <div class="sidebar-title">
+        <h4>Advertistment</h4>
+        <a href="#">Close</a>
+      </div>
+      <img src="Anonymous\Project\img\socialbook_img\images\advertisement.png" class="sidebar-Adds">
+
+      <div class="sidebar-title">
+        <h4>Conversation</h4>
+        <a href="#">Hide Chat</a>
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="Anonymous\Project\img\socialbook_img\images\member-1.png">
+        </div>
+        <p>Alison Mina</p>
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="Anonymous\Project\img\socialbook_img\images\member-2.png">
+        </div>
+        <p>Luna</p>
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="Anonymous\Project\img\socialbook_img\images\member-3.png">
+        </div>
+        <p>Chewoski</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright@2023 - Prashant Raj</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
